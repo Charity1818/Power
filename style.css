@@ -1,0 +1,118 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-toggler span{
+    display: block;
+    background-color: black;
+    height: 2px;
+    width: 25px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.navbar-toggler .small-span{
+    display: block;
+    background-color: black;
+    height: 2px;
+    width: 15px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+.navbar-toggler:focus{
+    border: none !important;
+    outline: none !important;
+}
+.red-icon{
+    color: rgb(117,40, 40);
+}
+
+.navbar-brand{
+    color: rgb(128, 43, 207);
+    font-weight: 600;
+}
+
+
+.nav-link{
+    color: 	rgb(0, 0, 0.8);
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 0.85;
+}
+.nav-link:hover{
+    color:  rgb(117,40, 40); 
+}
+.bg-intro{
+    background: rgb(187, 215, 233);
+}
+.intro-message{
+    margin-top: 60px;
+}
+
+.intro-message h2{
+    font-size: 2rem;
+    font-weight: normal;
+}
+.intro-message p{
+    font-style: italic;
+    color: rgb(0, 0, 0.8);
+}
+
+.intro-message a{
+    background:rgb(117,40, 40) ;
+    padding: 8px 15px;
+    font-size: .8rem;
+    text-transform: uppercase;
+    border-radius: 5px;
+    font-family: cursive;
+    color: white;
+}
+
+.carousel-item{
+    height: 30rem;
+}
+
+.carousel-item img{
+    height: 30rem;
+    width: 100%;
+}
+
+.carousel-indicators li{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+.carousel-caption{
+   top: 0;
+}
+
+.box{
+    background: white;
+    padding: 20px;
+    width: 300px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.check{
+    background:rgb(117,40, 40) ;
+    padding: 8px 15px;
+    font-size: .8rem;
+    text-transform: uppercase;
+    border-radius: 5px;
+    font-family: cursive;
+    color: white;
+}
+
+.products{
+    background: rgba(187, 215, 233, 0.4);
+}
+
+@media (max-width : 576px){
+    .nav-item{
+        border-bottom: 1px solid;
+    }
+    .nav-item:last-child{
+        border-bottom: none;
+    }
+}
